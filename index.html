@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            border: 1px solid black;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: fixed;
+            background-image: url(./images/black-background-ki2a7hia9m89ounx.jpg);
+        }
+
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box1{
+            border: 1px solid white;
+            width: 500px;
+            border-radius: 30px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgba(32, 28, 28, 0.367);
+            
+           
+        }
+        ul{
+            display: flex;
+            gap: 60px ;
+            list-style: none;
+            margin-top: 20px;
+            text-align:center;
+        }
+
+        .headerb1{
+            height: 30px;
+            width: 100px;
+            border: none;
+            color: white;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 30px;
+            font-size: 20px;
+        }
+        .headerb1:hover{
+            background-color: rgba(240, 255, 255, 0.752);
+            color: black;
+        }
+
+        .box2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+            background-color: rgba(0, 0, 0, 0.36);
+        }
+        h1{
+            color: white;
+            font-size: 60px;
+            display: block;
+            text-align: center;
+
+        }
+
+        .button2{
+            display: flex;
+            gap: 50px;
+            padding-block: 50px;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.36);
+        }
+
+        .button{
+            width: 220px;
+            border-radius: 30px;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.801);
+            font-size: 22px;
+            color: #ffffff;
+           
+        }
+
+        .button:hover{
+            background-color: rgba(240, 255, 255, 0.752);
+            color: #000;
+            transform: scale(1.1);
+        }
+
+        .box3{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.528);
+        }
+
+        .images{
+            height: 500px;
+            width: 400px;
+            margin-top: 30px;
+            display: block;
+            
+        }
+
+        .images2{
+            display: none;
+            width: auto;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            padding: 80px;
+          
+            font-family:  "Roboto slap" ;
+            
+        }
+
+        
+
+        .aboutme{
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.534);
+            flex-wrap: wrap;
+        }
+        .About{
+            color: white;
+            width: 65%;
+        }
+
+
+        .skills{
+            background-color: #000000ac;
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+
+            flex-wrap: wrap;
+        }
+
+        .html{
+            height: 100px;
+           
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            
+            
+        }
+
+        .box4{
+            background-color: #000;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+           
+            justify-content: center;
+        }
+
+        .project{
+            border: 1px solid yellow;
+            height: 700px;
+            border: none;
+            width: 350px;
+        }
+
+        .project:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        .p1{
+            height: 450px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 30px;
+            text-align: center;
+            font-weight:900;
+        }
+        a{
+            font-size: 20px;
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+
+        @media(max-width: 600px){
+            .box1{
+                width: 400px;
+                
+            }
+            .headerb1{
+                width: 50px;
+            }
+            h1{
+                font-size: 40px;
+            }
+            .button{
+                width: 120px;
+                font-size: 15px;
+            }
+
+
+            
+        }
+
+        @media(max-width : 440px){
+
+            .box1{
+                width: 300px;
+                
+            }
+            .headerb1{
+                width: 30px;
+            }
+           
+
+        
+        }
+
+        @media(max-width:700px){
+            .images{
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        @media(max-width: 380px){
+            .images{
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+
+        @media(max-width:1160px){
+            h2{
+                width: 100%;
+                margin-left: 120px;
+            }
+
+            .images{
+                margin-left: 250px;
+            }
+
+            
+        }
+
+        @media(max-width:800px){
+            .images{
+                margin: 0;
+            }
+        }
+
+
+        @media(max-width : 992px){
+            h2{
+                width: 100%;
+                margin: 0;
+            }
+            .images{
+                display: none;
+            }
+            .images2{
+                display: block;
+                width: auto;
+                margin-left: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="box1">
+                <ul>
+                    <li class="list"><button class="headerb1">Home</button></li>
+                    <li class="list"><button class="headerb1">Project</button></li>
+                    <li class="list"><button class="headerb1">contact</button></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+            <div class="box2">
+                <h1>Full-stack devloper, i build smart <br>solutions  from font-end to digital <br> functionality.</h1>
+             </div>
+            <div class="button2">
+                <button class="button">contact me <i class="fa-solid fa-arrow-right-long"></i>  </button>
+                <button class="button">Our Project <i class="fa-solid fa-arrow-right-long"></i>  </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="box3">
+                 <h1>About Me</h1>
+                 
+            </div>
+
+            <div class="aboutme">
+                 <div class="About">
+                    <h2>Hello and Welcome! <br>  
+                    I am studing Information B.COM <br>at the University of SILVER OAK
+                <br>
+            Concentrating in Full-stack Devloper
+        <br>Take a look at my work throuh the tabs :D</h2>
+                 </div>
+                <div class="images"><img height="100%" width="100%" src="./images/WhatsApp_Image_2025-08-05_at_10.19.07_AM-removebg-preview.png" alt=""></div>
+                <div class="images2"><img height="100%" width="100%" src="./images/WhatsApp_Image_2025-08-05_at_10.19.07_AM-removebg-preview.png" alt=""></div>
+                
+            </div>
+            
+           
+        </section>
+
+        <section>
+
+            <div class="box3">
+                   <h1>My Skills</h1> 
+                </div>
+            <div class="skills">
+
+                <img class="html" src="./images/html-removebg-preview (1).png" alt="">
+                <img class="html" src="./images/WhatsApp_Image_2025-08-05_at_3.35.33_PM__1_-removebg-preview.png" alt="">
+                <img class="html" src="./images/WhatsApp_Image_2025-08-05_at_3.35.33_PM__2_-removebg-preview.png" alt="">
+                <img class="html" src="./images/language-2024210_1280-removebg-preview.png" alt="">
+                <div class="skills">
+                     <img class="html" src="./images/WhatsApp_Image_2025-08-05_at_3.35.32_PM-removebg-preview.png" alt="">
+                <img class="html" src="./images/w-removebg-preview.png" alt="">
+                <img class="html" src="./images/box-removebg-preview.png" alt="">
+                <img class="html" src="./images/line-removebg-preview.png" alt="">
+                </div>
+               
+                
+
+                
+            </div>
+            
+        </section>
+
+        <section>
+            <div class="box3">
+                <h1>My Projects
+                </h1>
+            </div>
+
+            <div class="box4">
+                <div class="project"><img class="p1" height="100%" width="100%" src="./images/skechers18.png" alt=""><P>SKECHERS SHOES PROJECT</P><p>Github Project link: <a  href="skechers.html">https://skechers-projects.vercel.app/</a>   </p></div>
+                  <div class="project"><img class="p1" height="100%" width="100%" src="./images/coffee.png" alt=""><P>COFFEE PROJECT</P><p>Github Project link: <a href="coffee.html">https://min-width-coffee-project.vercel.app/</a></p></div>
+                    <div class="project"><img class="p1" height="100%" width="100%" src="./images/shoes.png" alt=""><P> SHOES PROJECT</P><p>Github Project link: <a href="shoes.html">https://shoes-puce-gamma.vercel.app/</a></p></div>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
